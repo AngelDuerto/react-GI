@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+h1{
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: underline;
+  font-size: 2.7rem;
+}
+
+.infoDiv{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.infoContainer{
+  display: flex;
+  /* margin-bottom: 10px; */
+
+}
+
+.infoContainer h4{
+  margin-right: 10px;
+  font-weight: 800;
+  color: #242424;
+}
+
+.infoContainer p{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: #242424;
+}
+
